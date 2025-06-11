@@ -1,28 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio-webaite</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+  </style>
 </head>
+
 <body>
-    <header> 
-        <h1>Welcome to My Portfolio Website</h1>
-        <p>This is a simple portfolio website to showcase my work and skills.</p>
-        <nav>
-           <a href="#about">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <nav class="navbar">
+      <a href="#home" class="home">Home</a>
+      <a href="#about">Profile</a>
+      <a href="#skills">Achievement</a>
+      <a href="#contact">Message Us</a>
+    </nav>
+  </header>
+
+    <!-- HOME SECTION WITH SLIDESHOW BACKGROUND -->
+  
+  
+    <section class="home" id="home">
+    <div class="slideshow-background" id="slideshow">
+        <div class="overlay"></div>
+        <div class="home-content">
+        <h3>Hi, there</h3>
+        <h1>Welcome<br>To My Portfolio!</h1>
+        <h3>I'm Kania <span class="text"></span></h3>
+        <p>And here some facts about me!</p>
+        <a href="#contact" class="btn-box">More About Me</a>
+      </div>
+    </div>
+  </section>
+
+       
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="photo-profile.jpg">
+        </div>
+
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Kania Chikoryta</h4>
+            <p>I am 18 years old, a prospective student at Telkom University majoring in information systems who is still a beginner in software engineering. I graduated from SMAN 2 GUNUNG PUTRI majoring in science.</p>
+            <a href="#contact" class="btn-box">More About Me</a>
+        </div>
+    </section>
+    <section>
+
+        <div class="services" id="skills">
+            <div class="container">
+                <h1 class="sub-title">My <span>achievements</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class="bx bx-code" style="color:#ffaccf"></i>
+                        <h2>Poetry Competition</h2>
+                        <p>I achieved first place in a national poetry competition, a moment that truly shaped my confidence as a writer. Poetry has always been my way of expressing what I often find difficult to say out loud — emotions, stories, and thoughts. Preparing for the competition took time and reflection, and winning it made me realize that my voice has value. It motivated me to keep writing and to continue improving my ability to connect with others through words.</p>
+                        <a href="#contact" class="read">Contact me</a>
+                    </div>
+                    
     
-        </nav>
+                    <div>
+                        <i class="bx bx-crop" style="color:#ffaccf"></i>
+                        <h2>Taekwondo Achievement</h2>
+                        <p>As a national-level Taekwondo athlete, I worked hard to reach the stage where I could represent my region and compete among the best. Countless hours of training, early mornings, and strict discipline were part of my routine. This experience didn’t just make me stronger physically, but also mentally. It taught me about perseverance, respect, and how to stay calm under pressure. Winning a medal at that level was more than a personal victory — it was proof that hard work really does pay off.</p>
+                        <a href="#contact" class="read">Contact me</a>
+                    </div>
+                    <div>
+                        <i class="bx bxl-visual-studio" style="color:#ffaccf"></i>
+                        <h2>Outstanding Student</h2>
+                        <p>Throughout my school years, I always aimed to do my best — not just in academics, but also in participating actively in various school events and competitions. I was honored to be recognized as one of the outstanding students, an award that reflected not just my grades, but also my involvement, attitude, and commitment to growth. I believe that being a good student means being curious, responsible, and willing to learn from every opportunity, and I’m proud that those efforts were appreciated.</p>
+                        <a href="#contact" class="read">Contact me</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section> 
+    
 
-        <main>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+    
+            <div class="contact-icons">
+                <a href="https://www.instagram.com/rsqkrnwn?igsh=cnNna2lzb3k4Y2wy"><i class="bx bxl-instagram"></i></a>
+                <a href="https://wa.me/+6281809208710"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@banana251106?_t=8pxkdvACDGK&amp;_r=1"><i class="bx bxl-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/riski-kurniawan-01966232a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYk4%2BioJgT2WAz9MgLwlulQ%3D%3D"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required="" fdprocessedid="rkup6h">
+                <input type="email" placeholder="Enter Your Email" required="" fdprocessedid="4kd9sp">
+                <input type="text" placeholder="Enter Your Subject" fdprocessedid="3wilnj">
+                <textarea placeholder="Enter Your Message" required=""></textarea>
+                <input type="submit" value="Submit" class="send" fdprocessedid="he1yn">
+            </form>
+        </div>
+    </section>
 
-        </main>
 
+
+    <div class="last-text">
         <footer>
-            
+         <p>@ 2025. Kania Chikoryta</p>
         </footer>
-    </header>
+    </div>
+    
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+    
+<script src="main.js"></script>
+
+  <script>
+    // Simple JS background slideshow
+    const backgrounds = [
+      "url('image-home-a.png')",
+      "url('image-home-b.png')",
+      "url('image-home-c.jpg')"
+    ];
+
+    let current = 0;
+    const slideshow = document.getElementById("slideshow");
+
+    function changeBackground() {
+      slideshow.style.backgroundImage = backgrounds[current];
+      current = (current + 1) % backgrounds.length;
+    }
+
+    setInterval(changeBackground, 3000); // change every 3 seconds
+    changeBackground(); // start immediately
+
+    
+
+
+  </script>
 </body>
 </html>
